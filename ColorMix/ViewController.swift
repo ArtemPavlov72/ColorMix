@@ -41,38 +41,27 @@ class ViewController: UIViewController {
         blueColor.text = String(format: "%.2f", blueSlider.value)
     }
     
-    @IBAction func redSliderAction() {
-        
+    func sliderInit() {
         let redValue = CGFloat(redSlider.value)
         let greenValue = CGFloat(greenSlider.value)
         let blueValue = CGFloat(blueSlider.value)
         
-        redColor.text = String(format: "%.2f", redSlider.value)
-        
-        
         colorPlace.backgroundColor = UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: 1)
+    }
+    
+    @IBAction func redSliderAction() {
+        redColor.text = String(format: "%.2f", redSlider.value)
+        sliderInit()
     }
     
     @IBAction func greenSliderAction() {
-        
-        let redValue = CGFloat(redSlider.value)
-        let greenValue = CGFloat(greenSlider.value)
-        let blueValue = CGFloat(blueSlider.value)
-        
         greenColor.text = String(format: "%.2f", greenSlider.value)
-        
-        colorPlace.backgroundColor = UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: 1)
+        sliderInit()
     }
     
     @IBAction func blueSliderAction() {
-        
-        let redValue = CGFloat(redSlider.value)
-        let greenValue = CGFloat(greenSlider.value)
-        let blueValue = CGFloat(blueSlider.value)
-        
         blueColor.text = String(format: "%.2f", blueSlider.value)
-        
-        colorPlace.backgroundColor = UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: 1)
+        sliderInit()
     }
     
 }
