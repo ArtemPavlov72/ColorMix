@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         blueColor.text = String(format: "%.2f", blueSlider.value)
     }
     
-    func sliderInit() {
+    private func sliderInit() {
         let redValue = CGFloat(redSlider.value)
         let greenValue = CGFloat(greenSlider.value)
         let blueValue = CGFloat(blueSlider.value)
@@ -63,7 +63,6 @@ class ViewController: UIViewController {
         blueColor.text = String(format: "%.2f", blueSlider.value)
         sliderInit()
     }
-    
 }
    
         
