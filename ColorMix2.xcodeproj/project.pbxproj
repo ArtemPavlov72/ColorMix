@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8824CFE026CFB1DC00AE8DF3 /* ColorMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8824CFE026CFB1DC00AE8DF3 /* ColorMix2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMix2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8824CFE326CFB1DC00AE8DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8824CFE526CFB1DC00AE8DF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8824CFE726CFB1DC00AE8DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		8824CFD726CFB1DC00AE8DF3 = {
 			isa = PBXGroup;
 			children = (
-				8824CFE226CFB1DC00AE8DF3 /* ColorMix */,
+				8824CFE226CFB1DC00AE8DF3 /* ColorMix2 */,
 				8824CFE126CFB1DC00AE8DF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +48,63 @@
 		8824CFE126CFB1DC00AE8DF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8824CFE026CFB1DC00AE8DF3 /* ColorMix.app */,
+				8824CFE026CFB1DC00AE8DF3 /* ColorMix2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8824CFE226CFB1DC00AE8DF3 /* ColorMix */ = {
+		8824CFE226CFB1DC00AE8DF3 /* ColorMix2 */ = {
+			isa = PBXGroup;
+			children = (
+				88E3139426E3ACF80030CED3 /* ViewControllers */,
+				88E3139526E3AD2E0030CED3 /* StoryBoards */,
+				88E3139726E3CEAF0030CED3 /* App */,
+				88E3139626E3CE920030CED3 /* Resources */,
+			);
+			path = ColorMix2;
+			sourceTree = "<group>";
+		};
+		88E3139426E3ACF80030CED3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8824CFE726CFB1DC00AE8DF3 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88E3139526E3AD2E0030CED3 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				8824CFE926CFB1DC00AE8DF3 /* Main.storyboard */,
+				8824CFEE26CFB1DF00AE8DF3 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		88E3139626E3CE920030CED3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8824CFEC26CFB1DF00AE8DF3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88E3139726E3CEAF0030CED3 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				8824CFE326CFB1DC00AE8DF3 /* AppDelegate.swift */,
 				8824CFE526CFB1DC00AE8DF3 /* SceneDelegate.swift */,
-				8824CFE726CFB1DC00AE8DF3 /* ViewController.swift */,
-				8824CFE926CFB1DC00AE8DF3 /* Main.storyboard */,
-				8824CFEC26CFB1DF00AE8DF3 /* Assets.xcassets */,
-				8824CFEE26CFB1DF00AE8DF3 /* LaunchScreen.storyboard */,
 				8824CFF126CFB1DF00AE8DF3 /* Info.plist */,
 			);
-			path = ColorMix;
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8824CFDF26CFB1DC00AE8DF3 /* ColorMix */ = {
+		8824CFDF26CFB1DC00AE8DF3 /* ColorMix2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8824CFF426CFB1DF00AE8DF3 /* Build configuration list for PBXNativeTarget "ColorMix" */;
+			buildConfigurationList = 8824CFF426CFB1DF00AE8DF3 /* Build configuration list for PBXNativeTarget "ColorMix2" */;
 			buildPhases = (
 				8824CFDC26CFB1DC00AE8DF3 /* Sources */,
 				8824CFDD26CFB1DC00AE8DF3 /* Frameworks */,
@@ -82,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = ColorMix;
+			name = ColorMix2;
 			productName = ColorMix;
-			productReference = 8824CFE026CFB1DC00AE8DF3 /* ColorMix.app */;
+			productReference = 8824CFE026CFB1DC00AE8DF3 /* ColorMix2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8824CFDB26CFB1DC00AE8DF3 /* Build configuration list for PBXProject "ColorMix" */;
+			buildConfigurationList = 8824CFDB26CFB1DC00AE8DF3 /* Build configuration list for PBXProject "ColorMix2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8824CFDF26CFB1DC00AE8DF3 /* ColorMix */,
+				8824CFDF26CFB1DC00AE8DF3 /* ColorMix2 */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +320,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QQ7NB58NL6;
-				INFOPLIST_FILE = ColorMix/Info.plist;
+				INFOPLIST_FILE = ColorMix2/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ColorMix;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ColorMix2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -307,12 +339,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QQ7NB58NL6;
-				INFOPLIST_FILE = ColorMix/Info.plist;
+				INFOPLIST_FILE = ColorMix2/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ColorMix;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ColorMix2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -322,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8824CFDB26CFB1DC00AE8DF3 /* Build configuration list for PBXProject "ColorMix" */ = {
+		8824CFDB26CFB1DC00AE8DF3 /* Build configuration list for PBXProject "ColorMix2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8824CFF226CFB1DF00AE8DF3 /* Debug */,
@@ -331,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8824CFF426CFB1DF00AE8DF3 /* Build configuration list for PBXNativeTarget "ColorMix" */ = {
+		8824CFF426CFB1DF00AE8DF3 /* Build configuration list for PBXNativeTarget "ColorMix2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8824CFF526CFB1DF00AE8DF3 /* Debug */,
